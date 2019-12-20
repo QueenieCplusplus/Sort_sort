@@ -23,7 +23,7 @@ The number of key comparisons made in the case of a successful search depends on
 
 if all keys are distinct as shown as f[i].getKey() !=insertedKey, and key f[i].key is being searched for, then n-1+1 key comparisons are made.
 
-It is possible to do much better when looking up phone number, the fact is that the entry in the list (i.e., the tele dir) are in lexicographic order.
+It is possible to do much better when looking up phone number, the fact is that the entry in the list (i.e., the tele dir) are in lexicographic order. On the name key, it enables one tp look up a number while examing only a very few entries in the list.
 
 (to be done...)
 
