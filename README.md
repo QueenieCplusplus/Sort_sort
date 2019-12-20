@@ -23,6 +23,9 @@ Note that the record 0 with f[0].key = insertedKey simplifies the search by elim
 
 
                            f[0], f[1],..., f[n]
+>>>
+
+                           f[1], f[2],..., f[n-1]
                            
 
 If no record in the list has key value insertedKey, then i = 0, and above function requires n + 1 comparisons.
