@@ -9,7 +9,7 @@ Since the same list may be used for several diff apps, the key fileds fo record 
 
 And there are 2 ways to store list, sequentially or nonsequntially.
 
-https://github.com/QueenieCplusplus/DataStructure_Sort/blob/master/README.md
+https://github.com/QueenieCplusplus/DataStructure_Sort
 
 # functions
 
