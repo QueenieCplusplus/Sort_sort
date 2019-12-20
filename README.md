@@ -9,6 +9,8 @@ Since the same list may be used for several diff apps, the key fileds fo record 
 
 And there are 2 ways to store list, sequentially or nonsequntially.
 
+https://github.com/QueenieCplusplus/DataStructure_Sort/blob/master/README.md
+
 # Comparisons
 
 Note that the record 0 with f[0].key = insertedKey simplifies the search by eliminating the need for an an end-of-list test (i<1) in the while loop, it reduces the run time considerably for large n.
