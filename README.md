@@ -13,6 +13,10 @@ And there are 2 ways to store list, sequentially or nonsequntially.
 
 Note that the record 0 with f[0].key = insertedKey simplifies the search by eliminating the need for an an end-of-list test (i<1) in the while loop, it reduces the run time considerably for large n.
 
+
+                           f[0], f[1],..., f[n]
+                           
+
 If no record in the list has key value insertedKey, then i = 0, and above function requires n + 1 comparisons.
 
 The number of key comparisons made in the case of a successful search depends on the posistion of the key in the list.
