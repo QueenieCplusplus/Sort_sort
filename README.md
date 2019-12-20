@@ -11,6 +11,12 @@ And there are 2 ways to store list, sequentially or nonsequntially.
 
 https://github.com/QueenieCplusplus/DataStructure_Sort/blob/master/README.md
 
+# functions
+
+search a list f with key val f[1].key, ..., f[n].key || f[0].key,...,f[n-1].key, return i;
+
+search that f[i].key == insertedKey, if there is no such record, return 0.
+
 # Sequential Search
 
 Note that the record 0 with f[0].key = insertedKey simplifies the search by eliminating the need for an an end-of-list test (i<1) in the while loop, it reduces the run time considerably for large n.
