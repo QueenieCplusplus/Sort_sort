@@ -25,5 +25,12 @@ if all keys are distinct as shown as f[i].getKey() !=insertedKey, and key f[i].k
 
 It is possible to do much better when looking up phone number, the fact is that the entry in the list (i.e., the tele dir) are in lexicographic order. On the name key, it enables one tp look up a number while examing only a very few entries in the list.
 
+# Binary Tree Search
+
+Binary tree search is one of the better-known methods for searching an ordered, sequential list. We note that when a sequential search is performed on a oredered list, the conditional of the while loop of SeqSearch Class provided in code file can be changed to 
+
+                        f[i].getKey() > insertedKey
+           // this improves the performance for the case of unsuccessful searches
+
 (to be done...)
 
