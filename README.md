@@ -15,5 +15,9 @@ Note that the introduction of the record 0 with f[0].key = insertedKey simplifie
 
 If no record in the list has key value insertedKey, then i = 0, and above function requires n + 1 comparisons.
 
+The number of key comparisons made in the case of a successful search depends on the posistion of the key in the list.
+
+if all keys are distinct as shown as f[i].getKey() !=k, and key f[i].key is being searched for, then n-1+1 key comparisons are made.
+
 (to be done...)
 
