@@ -42,6 +42,8 @@ It is possible to do much better when looking up phone number, the fact is that 
 
 # Binary Tree Search
 
+https://github.com/QueenieCplusplus/DataStructure_Search
+
 Binary tree search is one of the better-known methods for searching an ordered, sequential list. We note that when a sequential search is performed on a oredered list, the conditional of the while loop of SeqSearch Class provided in code file can be changed to 
 
                         f[i].getKey() > insertedKey
